@@ -1,0 +1,9 @@
+from django.shortcuts import render
+
+from django.http import  HttpResponse
+
+# Create your views here.
+
+
+def show_customer(request) :
+    return HttpResponse('به صفحه نمایش کاربران خوش آمدید')
